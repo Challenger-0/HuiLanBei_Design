@@ -1,0 +1,168 @@
+Rebuild target 'Target 1'
+compiling main.c...
+compiling graphics.c...
+compiling I2C.c...
+I2C.c(52): warning C275: expression with possibly no effect
+I2C.c(55): warning C275: expression with possibly no effect
+I2C.c(59): warning C275: expression with possibly no effect
+I2C.c(62): warning C275: expression with possibly no effect
+I2C.c(66): warning C275: expression with possibly no effect
+I2C.c(69): warning C275: expression with possibly no effect
+I2C.c(73): warning C275: expression with possibly no effect
+I2C.c(76): warning C275: expression with possibly no effect
+I2C.c(80): warning C275: expression with possibly no effect
+I2C.c(83): warning C275: expression with possibly no effect
+I2C.c(87): warning C275: expression with possibly no effect
+I2C.c(90): warning C275: expression with possibly no effect
+I2C.c(94): warning C275: expression with possibly no effect
+I2C.c(97): warning C275: expression with possibly no effect
+I2C.c(101): warning C275: expression with possibly no effect
+I2C.c(104): warning C275: expression with possibly no effect
+I2C.c(108): warning C275: expression with possibly no effect
+I2C.c(123): warning C275: expression with possibly no effect
+I2C.c(126): warning C275: expression with possibly no effect
+I2C.c(130): warning C275: expression with possibly no effect
+I2C.c(133): warning C275: expression with possibly no effect
+I2C.c(137): warning C275: expression with possibly no effect
+I2C.c(140): warning C275: expression with possibly no effect
+I2C.c(144): warning C275: expression with possibly no effect
+I2C.c(147): warning C275: expression with possibly no effect
+I2C.c(151): warning C275: expression with possibly no effect
+I2C.c(154): warning C275: expression with possibly no effect
+I2C.c(158): warning C275: expression with possibly no effect
+I2C.c(161): warning C275: expression with possibly no effect
+I2C.c(165): warning C275: expression with possibly no effect
+I2C.c(168): warning C275: expression with possibly no effect
+I2C.c(172): warning C275: expression with possibly no effect
+I2C.c(175): warning C275: expression with possibly no effect
+I2C.c(191): warning C275: expression with possibly no effect
+I2C.c(193): warning C275: expression with possibly no effect
+I2C.c(194): warning C275: expression with possibly no effect
+I2C.c(212): warning C275: expression with possibly no effect
+I2C.c(213): warning C275: expression with possibly no effect
+I2C.c(214): warning C275: expression with possibly no effect
+I2C.c(224): warning C275: expression with possibly no effect
+I2C.c(225): warning C275: expression with possibly no effect
+I2C.c(226): warning C275: expression with possibly no effect
+I2C.c(239): warning C259: pointer: different mspace
+compiling SSD1306.c...
+SSD1306.c(16): warning C280: 'len': unreferenced local variable
+compiling GUI.c...
+compiling WS2812.c...
+compiling Timer.c...
+compiling UART.c...
+compiling PCF8563T.c...
+compiling note.c...
+compiling I2C_low_speed.c...
+I2C_low_speed.c(196): warning C259: pointer: different mspace
+compiling BCD.c...
+compiling AHT20.c...
+compiling EEPROM.c...
+EEPROM.c(29): warning C280: 'dat': unreferenced local variable
+compiling MP3Player.c...
+compiling E2PROM.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PLAYINTERFACEANIMATION?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?EEPROMRECOVER?MAIN
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRAW45LINE?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DRAW135LINE?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETFONTWIDTH?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_SETFONTHEIGHT?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?GETFONTHEIGHT?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_POW10X?GRAPHICS
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2CRECEIVE?I2C
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2CSENDDATA?I2C
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?CO?I2C
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLEDSENDDATA?SSD1306
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_OLEDFILL?SSD1306
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UARTDBAVALIABLE?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UARTDBREAD?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UARTDBSENDSTR?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UARTMPAVALIABLE?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?UARTMPREAD?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_UARTBTWRITE?UART
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PCF8563READBYTE?PCF8563T
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_PCF8563WRITEBYTE?PCF8563T
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?NOTESTOP?NOTE
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?I2CLINIT?I2C_LOW_SPEED
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_I2CLSENDDATA?I2C_LOW_SPEED
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?EEPROMENABLE?EEPROM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?EEPROMDISABLE?EEPROM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_EEPROMWRITE?EEPROM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_EEPROMREAD?EEPROM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_EEPROMERASE?EEPROM
+
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_EEPROM_SECTORERASE?E2PROM
+
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_MP3PLAYERSENDCOMMAND?MP3PLAYER
+    CALLER1: ?PR?TIMER4INTERRUPT?MAIN
+    CALLER2: ?C_C51STARTUP
+
+*** WARNING L15: MULTIPLE CALL TO SEGMENT
+    SEGMENT: ?PR?_PLAYSOUND?MAIN
+    CALLER1: ?PR?TIMER4INTERRUPT?MAIN
+    CALLER2: ?C_C51STARTUP
+
+Program Size: data=15.1 xdata=1764 code=28491
+creating hex file from ".\Objects\ªÊ¿∂±≠–°ƒ÷÷”"...
+".\Objects\ªÊ¿∂±≠–°ƒ÷÷”" - 0 Error(s), 78 Warning(s).
+Build Time Elapsed:  00:00:02

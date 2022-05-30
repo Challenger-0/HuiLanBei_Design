@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "USART.C": "cpp",
+        "config.h": "c",
+        "eeprom.h": "c"
+    }
+}
